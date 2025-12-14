@@ -1,6 +1,11 @@
 .gemini
 .debug
 *.mp4
+downloads
+outputs
+sources
+unsloth_compiled_cache
+lora_model
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

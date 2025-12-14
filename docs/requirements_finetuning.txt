@@ -1,0 +1,18 @@
+# Core dependencies
+torch==2.7.1
+transformers>=4.36.0
+datasets>=2.14.0
+accelerate>=0.27.0
+bitsandbytes>=0.41.1
+peft>=0.7.0
+trl>=0.7.4
+rouge_score>=0.1.2
+tqdm>=4.66.0
+numpy>=1.24.0
+tensorboard>=2.14.0
+
+# Unsloth dependency
+unsloth @ git+https://github.com/unslothai/unsloth.git
+
+# Windows-specific dependencies
+triton-windows<3.4
